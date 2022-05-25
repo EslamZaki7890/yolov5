@@ -1,0 +1,12 @@
+
+train: custom/images/train  # train images (relative to 'path') 128 images
+val: custom/images/val  # val images (relative to 'path') 128 images
+test:  custom/images/test (optional)
+
+# Classes
+nc: 5  # number of classes
+names: ['dog', 'cat', 'lion', 'birds', 'deer']  # class names
+
+
+# Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco128.zip
