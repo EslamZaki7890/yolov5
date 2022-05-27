@@ -6,7 +6,7 @@
 # └── datasets
 #     └── coco128  ← downloads here (7 MB)
 
-#test: coco_3000/images/test (optional)
+test: custom/images/test (optional)
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 #path: ../datasets/coco128  # dataset root dir
 train: coco_3000/images/train  # train images (relative to 'path') 128 images
